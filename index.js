@@ -1,20 +1,19 @@
 // Qual a quantidade total de Vitorias e Derrotas do Herói ?
-let totalVitorias = 105
-let totalDerotas = 0
+let totalVitorias = [105, 34, 74] 
+let totalDerotas = [21, 6, 15]
 
-let saldoRankeadas = calcularRank(totalVitorias, totalDerotas)
-let nivel = classificar(saldoRankeadas)
+for(let i =0;i <3;i++){
+    let saldoVitorias = calcularRank(totalVitorias[i], totalDerotas[i])
+    let nivel = classificar(saldoVitorias)
 
 
-console.log("O Herói tem um saldo de " + saldoRankeadas + " Rankeadas e está no nível " + nivel)
-
-//Função para fazer o cacular o Saldo de Rankeadas
+    console.log(`O Herói tem um saldo de ${saldoVitorias} Vitorias e está no nível ${nivel}`)
+}
 function calcularRank(vitorias, derotas){
     let calculo = vitorias - derotas
     return calculo
 }
 
-//Função para classificar o titulo do rank conforme o saldo de Rankedas
 function classificar(Rank){
     let classificacao = ""
     if (Rank <= 10){
