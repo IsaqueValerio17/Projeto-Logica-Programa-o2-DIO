@@ -25,4 +25,5 @@ O objetivo era criar uma função para calcular o Saldo de Vitórias de um jogad
 
 ## 🔁 Exemplo de saída (node.js)
 "O Herói tem saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+
 "O herói tem saldo de 65 vitórias e está no nível de Ouro 
