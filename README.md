@@ -12,9 +12,6 @@ O objetivo era criar uma função para calcular o Saldo de Vitórias de um jogad
 - ✅ Estrutura de decisão 
 - ✅ Funções
 
-## 💡 Lógica
-
-O código percorre um array de heróis (cada um com nome e XP) e classifica cada herói com base no valor da experiência, seguindo a tabela abaixo:
 
 | Saldo Vitorias | Classificação  |
 |-----------------|----------------|
